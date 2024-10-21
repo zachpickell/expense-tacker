@@ -1,0 +1,119 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.data-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.data-form label {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.data-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 93%;
+}
+
+.data-form button {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.data-form button:hover {
+    background-color: #444;
+}
+
+.expense-form {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid #333;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.expense-form button {
+    width: 100%;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.expense-form button:hover {
+    background-color: #444;
+}
+
+#reset {
+    background-color: red !important;
+}
+
+#add {
+    background-color: green !important;
+}
+
+#finalStatement {
+    display: none;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#finalStatement span {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}

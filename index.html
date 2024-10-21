@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="icon.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="icon.png" alt="$" draggable="false">
+            <h1>Expense Tracker</h1>
+            <img src="icon.png" alt="$" draggable="false">
+        </div>
+        <div id="finalStatement">
+            <span id="totalIncome"></span>
+            <span id="totalExpenses"></span>                
+            <span id="totalBalance"></span>            
+        </div>
+        <div class="data-form">
+            <form>
+                <label for="amount">Your income:</label>
+                <input type="number" id="income" placeholder="Enter your income" required>
+
+                <div id="expenses"></div>
+
+                <div class="expense-form">
+                    <label for="expense">Expense:</label>
+                    <input type="text" id="expense" placeholder="Enter expense" required>
+                    <label for="amount">Amount:</label>
+                    <input type="number" id="amount" placeholder="Enter amount" required>
+                    <button type="button" id="add">Add</button>
+                </div>
+
+                <button type="button" id="submit">Submit</button>
+                <button type="button" id="reset">Reset</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
