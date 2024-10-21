@@ -48,3 +48,5 @@ This is a simple **Expense Tracker** web application that allows users to manage
 1. Editing expenses
 2. Deleting expenses without reseting everything
 3. Better UI elements
+4. Pie Chart to see how your money is spent visually
+5. Filters to see sections
